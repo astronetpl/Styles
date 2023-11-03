@@ -1,0 +1,89 @@
+#footer-bottom
+{
+    border-top: 1px solid #e6e6f0;
+    line-height: 130%;
+    background: #f8f8f8;
+    .navbar-right
+    {
+        width:100vw;
+        margin-top:9px;
+        margin-bottom:-8px;     
+        li {
+            margin:0 !important;
+            margin-left:-24px !important;
+            transition:0.3s !important;
+            opacity:0.8;
+            transform:scale(0.87);
+            :hover 
+            {
+                opacity:1;
+	            transform:translatey(-1px) scale(0.88);
+            }
+            &
+            {
+                transition:background 9999s !important;
+            }
+            i
+            {
+                filter: invert(70%);
+                -webkit-filter: invert(70%);
+	            opacity:1;
+            }
+        }
+    }
+    div
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        color: $light-gray;
+        -webkit-transform: translatey(-3px);
+        transform: translatey(-3px);
+        @media(max-width: 600px)
+        {
+            -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+        }
+        p
+        {
+            padding-bottom: 5px;
+            @media (max-width: 600px) {font-size: 12.5px;}
+        }
+        a, p a
+        {
+            @media(max-width: 600px) {font-size: 13px;}
+        }
+    }
+    p a {
+        color: #5a5a5a;
+    }
+    a
+    {
+        color: #505058;
+    }
+}
+.astromode
+{
+    #footer-bottom 
+    {
+        border-top: 1px solid #252525;
+        background: #252525;
+        &
+        {
+            color:rgb(150,150,150) !important;
+        }
+        .navbar-right li i {
+            filter: invert(30%);
+            -webkit-filter: invert(30%);
+        }
+        a:hover
+        {
+            color:rgb(176,176,176) !important;
+        }
+    }
+}

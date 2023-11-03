@@ -1,0 +1,57 @@
+$font-size: 15px;
+$tablet-width: 900px;
+$phone-width: 650px;
+@mixin columns($n) {
+    columns: $n;
+    -webkit-columns: $n;
+    -moz-columns: $n;
+}
+.category-slownik {
+    .simplesocialbuttons{
+        display:none;
+    }
+    .post-meta a:first-child{
+        display:none !important;
+    }
+    div.entry-content{
+        border:0px !important;
+        margin-top:15px !important;
+        margin-bottom:-10px !important;
+    }
+}
+.slowniklista {
+    @include columns(3);
+    @media (max-width: $tablet-width) {@include columns(2);}
+    @media (max-width: $phone-width) {@include columns(1);}
+     a:hover {
+	    opacity:1;
+	    color:rgb(163,199,248) !important;
+    }
+}
+
+.astromode .slowniklista a {
+	opacity:0.92;
+	color:rgb(135,195,245) !important;
+}
+
+.kategoriaslownik {
+    section.author {
+	    display: none !important; 
+    }
+    aside section:nth-child(n+3) {
+        display:none !important;
+    }
+    .related-posts {
+        display:none;
+    }
+    .post-meta a {
+        font-size: $font-size !important;
+    }
+    .secondary *{
+        font-size: $font-size !important;
+    }
+    article p {
+        justify-content:center !important;
+        font-size:14.6px;
+    }
+}
