@@ -1,0 +1,29 @@
+#wp-admin-bar-updates, #wp-admin-bar-comments, #wp-admin-bar-wp-mail-smtp-menu, #wp-admin-bar-aioseo-main, #wp-admin-bar-updraft_admin_node, #wp-admin-bar-litespeed-menu, #setting-error-tgmpa, .aioseo-review-plugin-cta, .jp-cc-notice, .aioseo-upgrade-bar, .aioseo-cta, .aioseo-submenu-highlight, .local-seo, #wpfooter #footer-left, .aioseo-sa-image-seo, .aioseo-flyout-menu-button, .cookie-notice-sidebar, #likethis{
+	display:none !important;
+}
+#formatdiv, #warta_sidebar_meta_box, #ssb_meta_box, #warta_page_subtitle_metabox, #commentstatusdiv, #trackbacksdiv, #commentsdiv, div.fs-notice.updated, div.fs-notice.success, div.fs-notice.promotion, .updraft-ad-container, .litespeed-banner-promo, #akismet_setup_prompt/*, .litespeed-wrap*/, .proupgrade, .notice-success, #gap-panel-overview, #gap-panel-current, .gap-credit-info, .toplevel_page_preloader_plus_setting_page {
+	display:none !important;
+}
+
+.post-type-post #elementor-switch-mode{
+	display:none;
+}
+#wp-admin-notice-source-affix, #litespeed_meta_boxes, .notice-iworks-rate, #cn_dashboard_stats{
+	display:none !important;
+}
+button[mdicon="svg-link-suggestion"], button[mdicon="svg-redirect-crossed-arrows"]{
+	display:none !important;
+}
+
+#menu-tools ul a[href="tools.php"], #menu-tools ul a[href="https://astronet.pl/wp-admin/admin.php?page=aioseo-redirects"], a[href="https://plugin-planet.com/ga-google-analytics-pro/?plugin"], a[href="https://astronet.pl/wp-admin/admin.php?page=cookie-notice&welcome=1"], a[href="options-general.php?page=whl_settings"], a[href="options-general.php?page=redux-framework"], a[href="admin.php?page=aioseo-settings/#/access-control"], a[href="admin.php?page=aioseo-about"], a[href="admin.php?page=aioseo-feature-manager"], a[href="admin.php?page=aioseo-search-statistics"], a[href="admin.php?page=aioseo-local-seo"], a[href="admin.php?page=aioseo-redirects"], a[href="admin.php?page=aioseo-link-assistant"], a[href="/wp-admin/admin.php?page=aioseo-sitemaps/#/video-sitemap"], a[href="/wp-admin/admin.php?page=aioseo-sitemaps/#/news-sitemap"], a[href="options-general.php?page=litespeed-cache-options"], a[href="/wp-admin/admin.php?page=aioseo-settings/#/access-control"], a[href="admin.php?page=ninja-forms#apps"] {
+  display: none !important;
+}
+
+div[class="notice notice-warning "]{
+	display:none;	
+}
+
+.post-type-post #delete-action
+{
+	display: none;
+}
